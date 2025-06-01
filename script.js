@@ -1,12 +1,13 @@
 
 // Firebase config placeholder - insert your config in firebaseConfig below
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_PROJECT_ID.appspot.com",
-  messagingSenderId: "YOUR_SENDER_ID",
-  appId: "YOUR_APP_ID"
+  apiKey: "AIzaSyCGc_pSx9CAaTmSHFXvDGeRUTPYRmLJ8iQ",
+  authDomain: "deviceinventory-fd1e9.firebaseapp.com",
+  projectId: "deviceinventory-fd1e9",
+  storageBucket: "deviceinventory-fd1e9.firebasestorage.app",
+  messagingSenderId: "512375013041",
+  appId: "1:512375013041:web:b81a9ee6cd8166ffc56c90",
+  measurementId: "G-KSE1QE1DRB"
 };
 
 // Initialize Firebase
