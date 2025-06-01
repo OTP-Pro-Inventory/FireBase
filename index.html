@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Device Inventory</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>📱 Device Inventory</h1>
+        </div>
+        <div class="menu">
+            <button onclick="load('inventory.html')">📦 Inventory</button>
+            <button onclick="load('add_item.html')">➕ Add Item</button>
+            <button onclick="load('removals.html')">📋 Removals</button>
+            <button onclick="load('activity_log.html')">📊 Activity Log</button>
+        </div>
+        <iframe id="frame" src="inventory.html"></iframe>
+    </div>
+    <script>
+        function load(page) {
+            document.getElementById('frame').src = page;
+        }
+    </script>
+</body>
+</html>
